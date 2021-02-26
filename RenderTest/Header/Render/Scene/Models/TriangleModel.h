@@ -15,9 +15,9 @@ namespace Rt
     class TriangleModel : public Model
     {
     public:
-        void Initialize() final;
-        void Initialize(const glm::vec3& pos, const glm::vec2& size);
-        uint32_t GetVerticesBuffer() const final;
-        uint32_t GetColorsBuffer() const final;
+        virtual void Initialize() override;
+        virtual void Initialize(const glm::vec3& pos, const glm::vec2& size);
+        virtual uint32_t GetVerticesBuffer() const override;
+        virtual uint32_t GetColorsBuffer() const override;
     };
 }

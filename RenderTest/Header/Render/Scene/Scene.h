@@ -15,6 +15,7 @@
 #include "Render/Shader/ShaderLoader.h"
 #include "Render/Scene/Component/Camera.h"
 
+#include <memory>
 #include <vector>
 
 namespace Rt
@@ -34,7 +35,7 @@ namespace Rt
         uint32_t m_programID;
         uint32_t m_verticesBuffer;
         uint32_t m_colorsBuffer;
-        std::vector<TriangleModel> m_models;
+        std::vector<std::shared_ptr<Model>> m_models;
 
         Camera m_cam;
         uint32_t mvpID;

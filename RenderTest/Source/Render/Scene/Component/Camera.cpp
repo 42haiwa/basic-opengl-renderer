@@ -56,11 +56,23 @@ namespace Rt
         double currentTime = glfwGetTime();
         float deltaTime = float(currentTime - lastTime);
 
+        lastTime = currentTime;
+
         glfwGetCursorPos(m_window, &xPos, &yPos);
         glfwSetCursorPos(m_window, 1280.0 / 2, 720.0 / 2);
 
         m_horizontalAngle += m_mouseSensivity * deltaTime * float(1280.0/2 - xPos);
         m_verticalAngle   += m_mouseSensivity * deltaTime * float(720.0/2 - yPos);
+
+        if (glm::degrees(m_verticalAngle) > 90)
+        {
+            m_verticalAngle = glm::radians(90.f);
+        }
+
+        if (glm::degrees(m_verticalAngle) < -90)
+        {
+            m_verticalAngle = glm::radians(-90.f);
+        }
 
         glm::vec3 direction{cosf(m_verticalAngle) * sinf(m_horizontalAngle),
                             sinf(m_verticalAngle),

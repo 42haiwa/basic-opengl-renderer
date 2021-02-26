@@ -4,4 +4,9 @@
 
 #include "Render/Scene/Models/Model.h"
 
-
+namespace Rt
+{
+    void Model::Initialize() {}
+    uint32_t Model::GetVerticesBuffer() const {}
+    uint32_t Model::GetColorsBuffer() const {}
+}

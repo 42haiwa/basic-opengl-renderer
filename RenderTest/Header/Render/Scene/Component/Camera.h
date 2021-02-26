@@ -44,8 +44,8 @@ namespace Rt
         float m_horizontalAngle = 3.14f;
         float m_verticalAngle = 0.f;
         glm::vec3 m_pos = glm::vec3{0, 0, 5};
-        float m_speed = 0.003f;
-        float m_mouseSensivity = 0.001f;
+        float m_speed = 10.f;
+        float m_mouseSensivity = 1.f;
 
         glm::mat4 m_projection;
         glm::mat4 m_view;

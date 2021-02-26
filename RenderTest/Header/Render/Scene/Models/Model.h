@@ -15,9 +15,9 @@ namespace Rt
     class Model
     {
     public:
-        virtual void Initialize() = 0;
-        virtual uint32_t GetVerticesBuffer() const = 0;
-        virtual uint32_t GetColorsBuffer() const = 0;
+        virtual void Initialize();
+        virtual uint32_t GetVerticesBuffer() const;
+        virtual uint32_t GetColorsBuffer() const;
 
     protected:
         std::vector<float> m_vertices;

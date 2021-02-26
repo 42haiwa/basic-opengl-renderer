@@ -40,9 +40,9 @@ namespace Rt
         // m_verticesBuffer = triangleModel.GetVerticesBuffer();
         // m_colorsBuffer = triangleModel.GetColorsBuffer();
 
-        m_models.push_back(triangleModel);
-        m_models.push_back(triangleModel1);
-        m_models.push_back(triangleModel2);
+        m_models.push_back(std::make_shared<TriangleModel>(triangleModel));
+        m_models.push_back(std::make_shared<TriangleModel>(triangleModel1));
+        m_models.push_back(std::make_shared<TriangleModel>(triangleModel2));
 
         // Init cam
         CameraCreateInfo cameraCreateInfo;
@@ -73,12 +73,14 @@ namespace Rt
         {
             // First Attributes
             glEnableVertexAttribArray(0);
-            glBindBuffer(GL_ARRAY_BUFFER, model.GetVerticesBuffer());
+            glBindBuffer(GL_ARRAY_BUFFER, model->GetVerticesBuffer());
+            std::cout << "Vertices Buffer : " << model->GetVerticesBuffer() << std::endl;
             glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
 
             // Second Attributes
             glEnableVertexAttribArray(1);
-            glBindBuffer(GL_ARRAY_BUFFER, model.GetColorsBuffer());
+            glBindBuffer(GL_ARRAY_BUFFER, model->GetColorsBuffer());
+            std::cout << "Colors Buffer : " << model->GetColorsBuffer() << std::endl;
             glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
 
             glUniformMatrix4fv(mvpID, 1, GL_FALSE, &m_cam.GetMVP()[0][0]);
