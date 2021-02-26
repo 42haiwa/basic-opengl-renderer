@@ -1,5 +1,5 @@
-D:/Programmation/C++/CLionWorkspace/Nedge/RendererTest/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Programmation/C++/CLionWorkspace/Nedge/RendererTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Programmation/C++/CLionWorkspace/Nedge/RendererTest/cmake-build-debug/RenderTest/Source/CMakeFiles/rebuild_cache.dir
-D:/Programmation/C++/CLionWorkspace/Nedge/RendererTest/cmake-build-debug/RenderTest/Source/CMakeFiles/RenderTest.dir
-D:/Programmation/C++/CLionWorkspace/Nedge/RendererTest/cmake-build-debug/RenderTest/Source/CMakeFiles/edit_cache.dir
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/cmake-build-debug/RenderTest/Source/CMakeFiles/rebuild_cache.dir
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/cmake-build-debug/RenderTest/Source/CMakeFiles/RenderTest.dir
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/cmake-build-debug/RenderTest/Source/CMakeFiles/edit_cache.dir

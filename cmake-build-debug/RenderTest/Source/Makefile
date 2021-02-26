@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest
+CMAKE_SOURCE_DIR = D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug\CMakeFiles D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug\RenderTest\Source\CMakeFiles\progress.marks
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug\CMakeFiles 0
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source\CMakeFiles\progress.marks
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/clean
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/preinstall
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/preinstall
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 RenderTest/Source/CMakeFiles/RenderTest.dir/rule:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/CMakeFiles/RenderTest.dir/rule
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RenderTest/Source/CMakeFiles/RenderTest.dir/rule
 .PHONY : RenderTest/Source/CMakeFiles/RenderTest.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ RenderTest: RenderTest/Source/CMakeFiles/RenderTest.dir/rule
 
 # fast build rule for target.
 RenderTest/fast:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/build
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/build
 .PHONY : RenderTest/fast
 
 Application.obj: Application.cpp.obj
@@ -150,7 +150,7 @@ Application.obj: Application.cpp.obj
 
 # target to build an object file
 Application.cpp.obj:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Application.cpp.obj
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Application.cpp.obj
 .PHONY : Application.cpp.obj
 
 Application.i: Application.cpp.i
@@ -159,7 +159,7 @@ Application.i: Application.cpp.i
 
 # target to preprocess a source file
 Application.cpp.i:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Application.cpp.i
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Application.cpp.i
 .PHONY : Application.cpp.i
 
 Application.s: Application.cpp.s
@@ -168,7 +168,7 @@ Application.s: Application.cpp.s
 
 # target to generate assembly for a file
 Application.cpp.s:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Application.cpp.s
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Application.cpp.s
 .PHONY : Application.cpp.s
 
 Render/Display/DisplayWindow.obj: Render/Display/DisplayWindow.cpp.obj
@@ -177,7 +177,7 @@ Render/Display/DisplayWindow.obj: Render/Display/DisplayWindow.cpp.obj
 
 # target to build an object file
 Render/Display/DisplayWindow.cpp.obj:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.obj
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.obj
 .PHONY : Render/Display/DisplayWindow.cpp.obj
 
 Render/Display/DisplayWindow.i: Render/Display/DisplayWindow.cpp.i
@@ -186,7 +186,7 @@ Render/Display/DisplayWindow.i: Render/Display/DisplayWindow.cpp.i
 
 # target to preprocess a source file
 Render/Display/DisplayWindow.cpp.i:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.i
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.i
 .PHONY : Render/Display/DisplayWindow.cpp.i
 
 Render/Display/DisplayWindow.s: Render/Display/DisplayWindow.cpp.s
@@ -195,8 +195,35 @@ Render/Display/DisplayWindow.s: Render/Display/DisplayWindow.cpp.s
 
 # target to generate assembly for a file
 Render/Display/DisplayWindow.cpp.s:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.s
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.s
 .PHONY : Render/Display/DisplayWindow.cpp.s
+
+Render/Scene/Component/Camera.obj: Render/Scene/Component/Camera.cpp.obj
+
+.PHONY : Render/Scene/Component/Camera.obj
+
+# target to build an object file
+Render/Scene/Component/Camera.cpp.obj:
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.obj
+.PHONY : Render/Scene/Component/Camera.cpp.obj
+
+Render/Scene/Component/Camera.i: Render/Scene/Component/Camera.cpp.i
+
+.PHONY : Render/Scene/Component/Camera.i
+
+# target to preprocess a source file
+Render/Scene/Component/Camera.cpp.i:
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.i
+.PHONY : Render/Scene/Component/Camera.cpp.i
+
+Render/Scene/Component/Camera.s: Render/Scene/Component/Camera.cpp.s
+
+.PHONY : Render/Scene/Component/Camera.s
+
+# target to generate assembly for a file
+Render/Scene/Component/Camera.cpp.s:
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.s
+.PHONY : Render/Scene/Component/Camera.cpp.s
 
 Render/Scene/Models/Model.obj: Render/Scene/Models/Model.cpp.obj
 
@@ -204,7 +231,7 @@ Render/Scene/Models/Model.obj: Render/Scene/Models/Model.cpp.obj
 
 # target to build an object file
 Render/Scene/Models/Model.cpp.obj:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj
 .PHONY : Render/Scene/Models/Model.cpp.obj
 
 Render/Scene/Models/Model.i: Render/Scene/Models/Model.cpp.i
@@ -213,7 +240,7 @@ Render/Scene/Models/Model.i: Render/Scene/Models/Model.cpp.i
 
 # target to preprocess a source file
 Render/Scene/Models/Model.cpp.i:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.i
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.i
 .PHONY : Render/Scene/Models/Model.cpp.i
 
 Render/Scene/Models/Model.s: Render/Scene/Models/Model.cpp.s
@@ -222,7 +249,7 @@ Render/Scene/Models/Model.s: Render/Scene/Models/Model.cpp.s
 
 # target to generate assembly for a file
 Render/Scene/Models/Model.cpp.s:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.s
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.s
 .PHONY : Render/Scene/Models/Model.cpp.s
 
 Render/Scene/Models/TriangleModel.obj: Render/Scene/Models/TriangleModel.cpp.obj
@@ -231,7 +258,7 @@ Render/Scene/Models/TriangleModel.obj: Render/Scene/Models/TriangleModel.cpp.obj
 
 # target to build an object file
 Render/Scene/Models/TriangleModel.cpp.obj:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj
 .PHONY : Render/Scene/Models/TriangleModel.cpp.obj
 
 Render/Scene/Models/TriangleModel.i: Render/Scene/Models/TriangleModel.cpp.i
@@ -240,7 +267,7 @@ Render/Scene/Models/TriangleModel.i: Render/Scene/Models/TriangleModel.cpp.i
 
 # target to preprocess a source file
 Render/Scene/Models/TriangleModel.cpp.i:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.i
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.i
 .PHONY : Render/Scene/Models/TriangleModel.cpp.i
 
 Render/Scene/Models/TriangleModel.s: Render/Scene/Models/TriangleModel.cpp.s
@@ -249,7 +276,7 @@ Render/Scene/Models/TriangleModel.s: Render/Scene/Models/TriangleModel.cpp.s
 
 # target to generate assembly for a file
 Render/Scene/Models/TriangleModel.cpp.s:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.s
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.s
 .PHONY : Render/Scene/Models/TriangleModel.cpp.s
 
 Render/Scene/Models/VboManager.obj: Render/Scene/Models/VboManager.cpp.obj
@@ -258,7 +285,7 @@ Render/Scene/Models/VboManager.obj: Render/Scene/Models/VboManager.cpp.obj
 
 # target to build an object file
 Render/Scene/Models/VboManager.cpp.obj:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj
 .PHONY : Render/Scene/Models/VboManager.cpp.obj
 
 Render/Scene/Models/VboManager.i: Render/Scene/Models/VboManager.cpp.i
@@ -267,7 +294,7 @@ Render/Scene/Models/VboManager.i: Render/Scene/Models/VboManager.cpp.i
 
 # target to preprocess a source file
 Render/Scene/Models/VboManager.cpp.i:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.i
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.i
 .PHONY : Render/Scene/Models/VboManager.cpp.i
 
 Render/Scene/Models/VboManager.s: Render/Scene/Models/VboManager.cpp.s
@@ -276,7 +303,7 @@ Render/Scene/Models/VboManager.s: Render/Scene/Models/VboManager.cpp.s
 
 # target to generate assembly for a file
 Render/Scene/Models/VboManager.cpp.s:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.s
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.s
 .PHONY : Render/Scene/Models/VboManager.cpp.s
 
 Render/Scene/Scene.obj: Render/Scene/Scene.cpp.obj
@@ -285,7 +312,7 @@ Render/Scene/Scene.obj: Render/Scene/Scene.cpp.obj
 
 # target to build an object file
 Render/Scene/Scene.cpp.obj:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.obj
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.obj
 .PHONY : Render/Scene/Scene.cpp.obj
 
 Render/Scene/Scene.i: Render/Scene/Scene.cpp.i
@@ -294,7 +321,7 @@ Render/Scene/Scene.i: Render/Scene/Scene.cpp.i
 
 # target to preprocess a source file
 Render/Scene/Scene.cpp.i:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.i
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.i
 .PHONY : Render/Scene/Scene.cpp.i
 
 Render/Scene/Scene.s: Render/Scene/Scene.cpp.s
@@ -303,7 +330,7 @@ Render/Scene/Scene.s: Render/Scene/Scene.cpp.s
 
 # target to generate assembly for a file
 Render/Scene/Scene.cpp.s:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.s
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.s
 .PHONY : Render/Scene/Scene.cpp.s
 
 Render/Shader/ShaderLoader.obj: Render/Shader/ShaderLoader.cpp.obj
@@ -312,7 +339,7 @@ Render/Shader/ShaderLoader.obj: Render/Shader/ShaderLoader.cpp.obj
 
 # target to build an object file
 Render/Shader/ShaderLoader.cpp.obj:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.obj
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.obj
 .PHONY : Render/Shader/ShaderLoader.cpp.obj
 
 Render/Shader/ShaderLoader.i: Render/Shader/ShaderLoader.cpp.i
@@ -321,7 +348,7 @@ Render/Shader/ShaderLoader.i: Render/Shader/ShaderLoader.cpp.i
 
 # target to preprocess a source file
 Render/Shader/ShaderLoader.cpp.i:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.i
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.i
 .PHONY : Render/Shader/ShaderLoader.cpp.i
 
 Render/Shader/ShaderLoader.s: Render/Shader/ShaderLoader.cpp.s
@@ -330,7 +357,7 @@ Render/Shader/ShaderLoader.s: Render/Shader/ShaderLoader.cpp.s
 
 # target to generate assembly for a file
 Render/Shader/ShaderLoader.cpp.s:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.s
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.s
 .PHONY : Render/Shader/ShaderLoader.cpp.s
 
 main.obj: main.cpp.obj
@@ -339,7 +366,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.obj
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -348,7 +375,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.i
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -357,7 +384,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.s
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -375,6 +402,9 @@ help:
 	@echo ... Render/Display/DisplayWindow.obj
 	@echo ... Render/Display/DisplayWindow.i
 	@echo ... Render/Display/DisplayWindow.s
+	@echo ... Render/Scene/Component/Camera.obj
+	@echo ... Render/Scene/Component/Camera.i
+	@echo ... Render/Scene/Component/Camera.s
 	@echo ... Render/Scene/Models/Model.obj
 	@echo ... Render/Scene/Models/Model.i
 	@echo ... Render/Scene/Models/Model.s
@@ -404,6 +434,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\RendererTest\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

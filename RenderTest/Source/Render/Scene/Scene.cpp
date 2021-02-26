@@ -28,6 +28,17 @@ namespace Rt
 
         m_verticesBuffer = triangleModel.GetVerticesBuffer();
         m_colorsBuffer = triangleModel.GetColorsBuffer();
+
+        // Init cam
+        CameraCreateInfo cameraCreateInfo;
+        cameraCreateInfo.fov = 45.f;
+        cameraCreateInfo.zNear = 0.1f;
+        cameraCreateInfo.zFar = 100.f;
+        cameraCreateInfo.ratX = 16.f;
+        cameraCreateInfo.ratY = 9.f;
+
+        m_cam.Initialize(&cameraCreateInfo);
+        mvpID = glGetUniformLocation(m_programID, "MVP");
     }
 
     void Scene::Release()
@@ -50,6 +61,8 @@ namespace Rt
         glEnableVertexAttribArray(1);
         glBindBuffer(GL_ARRAY_BUFFER, m_colorsBuffer);
         glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
+
+        glUniformMatrix4fv(mvpID, 1, GL_FALSE, &m_cam.GetMVP()[0][0]);
 
         glUseProgram(m_programID);
         glDrawArrays(GL_TRIANGLES, 0, 3);
