@@ -4,6 +4,9 @@
 
 #pragma once
 
+#include "Glm/glm.hpp"
+#include "Glm/gtc/matrix_transform.hpp"
+
 #include "Render/Scene/Models/Model.h"
 #include "Render/Scene/Models/VboManager.h"
 
@@ -13,7 +16,8 @@ namespace Rt
     {
     public:
         void Initialize() final;
-        uint32_t GetVerticesBuffer() const;
-        uint32_t GetColorsBuffer() const;
+        void Initialize(const glm::vec3& pos, const glm::vec2& size);
+        uint32_t GetVerticesBuffer() const final;
+        uint32_t GetColorsBuffer() const final;
     };
 }

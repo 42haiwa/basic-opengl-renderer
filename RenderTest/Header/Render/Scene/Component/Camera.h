@@ -4,6 +4,8 @@
 
 #pragma once
 
+#include "Glfw/glfw3.h"
+
 #include "Glm/glm.hpp"
 #include "Glm/gtc/matrix_transform.hpp"
 
@@ -11,6 +13,7 @@ namespace Rt
 {
     struct CameraCreateInfo
     {
+        GLFWwindow* window;
         float fov;
         float zNear;
         float zFar;
@@ -24,9 +27,12 @@ namespace Rt
         ~Camera();
         void Initialize(CameraCreateInfo* cameraCreateInfo);
         glm::mat4 GetMVP() const;
+        void Input();
         void Release();
 
     private:
+        GLFWwindow* m_window;
+
         float m_fov = 70.f;
         float m_zNear = 0.1f;
         float m_zFar = 100.f;

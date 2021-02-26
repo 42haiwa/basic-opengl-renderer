@@ -13,8 +13,10 @@ namespace Rt
         Release();
     }
 
-    void Scene::Initialize()
+    void Scene::Initialize(GLFWwindow* window)
     {
+        m_window = window;
+
         ShaderLoader sl;
         ShaderLoaderCreateInfo shaderLoaderCreateInfo;
         shaderLoaderCreateInfo.vsPath = "../Res/Shader/main.vert";
@@ -24,14 +26,28 @@ namespace Rt
         m_programID = sl.Load();
 
         TriangleModel triangleModel;
-        triangleModel.Initialize();
+        triangleModel.Initialize(glm::vec3{0, 0, 0},
+                                 glm::vec2{0.5f, 0.5f});
 
-        m_verticesBuffer = triangleModel.GetVerticesBuffer();
-        m_colorsBuffer = triangleModel.GetColorsBuffer();
+        TriangleModel triangleModel1;
+        triangleModel1.Initialize(glm::vec3{1, 0, 0},
+                                  glm::vec2{0.5f, 0.5f});
+
+        TriangleModel triangleModel2;
+        triangleModel2.Initialize(glm::vec3{0.5f, 1, 0},
+                                  glm::vec2{0.5f, 0.5f});
+
+        // m_verticesBuffer = triangleModel.GetVerticesBuffer();
+        // m_colorsBuffer = triangleModel.GetColorsBuffer();
+
+        m_models.push_back(triangleModel);
+        m_models.push_back(triangleModel1);
+        m_models.push_back(triangleModel2);
 
         // Init cam
         CameraCreateInfo cameraCreateInfo;
-        cameraCreateInfo.fov = 45.f;
+        cameraCreateInfo.window = m_window;
+        cameraCreateInfo.fov = 70.f;
         cameraCreateInfo.zNear = 0.1f;
         cameraCreateInfo.zFar = 100.f;
         cameraCreateInfo.ratX = 16.f;
@@ -48,24 +64,28 @@ namespace Rt
 
     void Scene::Update()
     {
-
+        m_cam.Input();
     }
 
     void Scene::Render()
     {
-        // First Attributes
-        glEnableVertexAttribArray(0);
-        glBindBuffer(GL_ARRAY_BUFFER, m_verticesBuffer);
-        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
+        for (const auto& model : m_models)
+        {
+            // First Attributes
+            glEnableVertexAttribArray(0);
+            glBindBuffer(GL_ARRAY_BUFFER, model.GetVerticesBuffer());
+            glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
 
-        glEnableVertexAttribArray(1);
-        glBindBuffer(GL_ARRAY_BUFFER, m_colorsBuffer);
-        glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
+            // Second Attributes
+            glEnableVertexAttribArray(1);
+            glBindBuffer(GL_ARRAY_BUFFER, model.GetColorsBuffer());
+            glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
 
-        glUniformMatrix4fv(mvpID, 1, GL_FALSE, &m_cam.GetMVP()[0][0]);
+            glUniformMatrix4fv(mvpID, 1, GL_FALSE, &m_cam.GetMVP()[0][0]);
 
-        glUseProgram(m_programID);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
-        glDisableVertexAttribArray(0);
+            glUseProgram(m_programID);
+            glDrawArrays(GL_TRIANGLES, 0, 3);
+            glDisableVertexAttribArray(0);
+        }
     }
 }

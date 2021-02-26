@@ -15,11 +15,17 @@ namespace Rt
 
     void Camera::Initialize(CameraCreateInfo* cameraCreateInfo)
     {
+        m_window = cameraCreateInfo->window;
         m_fov = cameraCreateInfo->fov;
         m_zNear = cameraCreateInfo->zNear;
         m_zFar = cameraCreateInfo->zFar;
         m_ratX = cameraCreateInfo->ratX;
         m_ratY = cameraCreateInfo->ratY;
+
+        if (!m_window)
+        {
+            std::cerr << "CAMERA >> WINDOW IS NULL" << std::endl;
+        }
 
         m_projection = glm::perspective(glm::radians(m_fov),
                                         m_ratX / m_ratY,
@@ -40,6 +46,11 @@ namespace Rt
     glm::mat4 Camera::GetMVP() const
     {
         return m_mvp;
+    }
+
+    void Camera::Input()
+    {
+
     }
 
     void Camera::Release()

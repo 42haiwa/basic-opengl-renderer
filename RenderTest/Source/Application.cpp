@@ -37,7 +37,7 @@ namespace Rt
 
         std::cout << "Application initialized." << std::endl;
 
-        m_scene.Initialize();
+        m_scene.Initialize(m_window);
     }
 
     void Application::Release()

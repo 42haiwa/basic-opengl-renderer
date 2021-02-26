@@ -4,6 +4,9 @@
 
 #pragma once
 
+#include "Glm/glm.hpp"
+#include "Glm/gtc/matrix_transform.hpp"
+
 #include <iostream>
 #include <vector>
 
@@ -13,6 +16,8 @@ namespace Rt
     {
     public:
         virtual void Initialize() = 0;
+        virtual uint32_t GetVerticesBuffer() const = 0;
+        virtual uint32_t GetColorsBuffer() const = 0;
 
     protected:
         std::vector<float> m_vertices;

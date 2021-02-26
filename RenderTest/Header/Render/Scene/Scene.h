@@ -10,9 +10,12 @@
 #include "Glm/glm.hpp"
 #include "Glm/gtc/matrix_transform.hpp"
 
+#include "Render/Scene/Models/Model.h"
 #include "Render/Scene/Models/TriangleModel.h"
 #include "Render/Shader/ShaderLoader.h"
 #include "Render/Scene/Component/Camera.h"
+
+#include <vector>
 
 namespace Rt
 {
@@ -20,15 +23,18 @@ namespace Rt
     {
     public:
         ~Scene();
-        void Initialize();
+        void Initialize(GLFWwindow* window);
         void Release();
         void Render();
         void Update();
 
     private:
+        GLFWwindow* m_window;
+
         uint32_t m_programID;
         uint32_t m_verticesBuffer;
         uint32_t m_colorsBuffer;
+        std::vector<TriangleModel> m_models;
 
         Camera m_cam;
         uint32_t mvpID;

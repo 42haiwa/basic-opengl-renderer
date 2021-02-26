@@ -6,19 +6,43 @@
 
 #IncludeRegexTransform: 
 
+../RenderTest/Header/Application.h
+Render/Display/DisplayWindow.h
+../RenderTest/Header/Render/Display/DisplayWindow.h
+Render/Scene/Scene.h
+../RenderTest/Header/Render/Scene/Scene.h
+
+../RenderTest/Header/Render/Display/DisplayWindow.h
+Glew/glew.h
+../RenderTest/Header/Render/Display/Glew/glew.h
+Glfw/glfw3.h
+../RenderTest/Header/Render/Display/Glfw/glfw3.h
+iostream
+-
+
 ../RenderTest/Header/Render/Scene/Component/Camera.h
+Glfw/glfw3.h
+../RenderTest/Header/Render/Scene/Component/Glfw/glfw3.h
 Glm/glm.hpp
 ../RenderTest/Header/Render/Scene/Component/Glm/glm.hpp
 Glm/gtc/matrix_transform.hpp
 ../RenderTest/Header/Render/Scene/Component/Glm/gtc/matrix_transform.hpp
 
 ../RenderTest/Header/Render/Scene/Models/Model.h
+Glm/glm.hpp
+../RenderTest/Header/Render/Scene/Models/Glm/glm.hpp
+Glm/gtc/matrix_transform.hpp
+../RenderTest/Header/Render/Scene/Models/Glm/gtc/matrix_transform.hpp
 iostream
 -
 vector
 -
 
 ../RenderTest/Header/Render/Scene/Models/TriangleModel.h
+Glm/glm.hpp
+../RenderTest/Header/Render/Scene/Models/Glm/glm.hpp
+Glm/gtc/matrix_transform.hpp
+../RenderTest/Header/Render/Scene/Models/Glm/gtc/matrix_transform.hpp
 Render/Scene/Models/Model.h
 ../RenderTest/Header/Render/Scene/Models/Render/Scene/Models/Model.h
 Render/Scene/Models/VboManager.h
@@ -43,12 +67,16 @@ Glm/glm.hpp
 ../RenderTest/Header/Render/Scene/Glm/glm.hpp
 Glm/gtc/matrix_transform.hpp
 ../RenderTest/Header/Render/Scene/Glm/gtc/matrix_transform.hpp
+Render/Scene/Models/Model.h
+../RenderTest/Header/Render/Scene/Render/Scene/Models/Model.h
 Render/Scene/Models/TriangleModel.h
 ../RenderTest/Header/Render/Scene/Render/Scene/Models/TriangleModel.h
 Render/Shader/ShaderLoader.h
 ../RenderTest/Header/Render/Scene/Render/Shader/ShaderLoader.h
 Render/Scene/Component/Camera.h
 ../RenderTest/Header/Render/Scene/Render/Scene/Component/Camera.h
+vector
+-
 
 ../RenderTest/Header/Render/Shader/ShaderLoader.h
 Glew/glew.h
@@ -1216,9 +1244,23 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 ../ThirdParty/Glm/detail/func_vector_relational.inl
 
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Application.cpp
+Application.h
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Application.h
+
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Component/Camera.cpp
+Render/Scene/Component/Camera.h
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Component/Render/Scene/Component/Camera.h
+iostream
+-
+
 D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Scene.cpp
 Render/Scene/Scene.h
 D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Render/Scene/Scene.h
 iostream
 -
+
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/main.cpp
+Application.h
+D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Application.h
 
