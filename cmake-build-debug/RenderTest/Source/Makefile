@@ -225,6 +225,33 @@ Render/Scene/Component/Camera.cpp.s:
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.s
 .PHONY : Render/Scene/Component/Camera.cpp.s
 
+Render/Scene/Models/CustomModel.obj: Render/Scene/Models/CustomModel.cpp.obj
+
+.PHONY : Render/Scene/Models/CustomModel.obj
+
+# target to build an object file
+Render/Scene/Models/CustomModel.cpp.obj:
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.obj
+.PHONY : Render/Scene/Models/CustomModel.cpp.obj
+
+Render/Scene/Models/CustomModel.i: Render/Scene/Models/CustomModel.cpp.i
+
+.PHONY : Render/Scene/Models/CustomModel.i
+
+# target to preprocess a source file
+Render/Scene/Models/CustomModel.cpp.i:
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.i
+.PHONY : Render/Scene/Models/CustomModel.cpp.i
+
+Render/Scene/Models/CustomModel.s: Render/Scene/Models/CustomModel.cpp.s
+
+.PHONY : Render/Scene/Models/CustomModel.s
+
+# target to generate assembly for a file
+Render/Scene/Models/CustomModel.cpp.s:
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug && $(MAKE) $(MAKESILENT) -f RenderTest\Source\CMakeFiles\RenderTest.dir\build.make RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.s
+.PHONY : Render/Scene/Models/CustomModel.cpp.s
+
 Render/Scene/Models/Model.obj: Render/Scene/Models/Model.cpp.obj
 
 .PHONY : Render/Scene/Models/Model.obj
@@ -405,6 +432,9 @@ help:
 	@echo ... Render/Scene/Component/Camera.obj
 	@echo ... Render/Scene/Component/Camera.i
 	@echo ... Render/Scene/Component/Camera.s
+	@echo ... Render/Scene/Models/CustomModel.obj
+	@echo ... Render/Scene/Models/CustomModel.i
+	@echo ... Render/Scene/Models/CustomModel.s
 	@echo ... Render/Scene/Models/Model.obj
 	@echo ... Render/Scene/Models/Model.i
 	@echo ... Render/Scene/Models/Model.s

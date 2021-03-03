@@ -95,6 +95,9 @@
 		<Unit filename="D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Component/Camera.cpp">
 			<Option target="RenderTest"/>
 		</Unit>
+		<Unit filename="D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Models/CustomModel.cpp">
+			<Option target="RenderTest"/>
+		</Unit>
 		<Unit filename="D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Models/Model.cpp">
 			<Option target="RenderTest"/>
 		</Unit>

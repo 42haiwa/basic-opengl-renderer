@@ -33,11 +33,12 @@ namespace Rt
         GLFWwindow* m_window;
 
         uint32_t m_programID;
-        uint32_t m_verticesBuffer;
-        uint32_t m_colorsBuffer;
-        std::vector<std::shared_ptr<Model>> m_models;
+        std::vector<std::shared_ptr<TriangleModel>> m_models;
 
         Camera m_cam;
         uint32_t mvpID;
+
+        // uint32_t m_verticesBuffer;
+        // uint32_t m_colorsBuffer;
     };
 }

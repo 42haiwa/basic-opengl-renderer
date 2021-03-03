@@ -118,10 +118,24 @@ RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.s"
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Scene\Component\Camera.cpp -o CMakeFiles\RenderTest.dir\Render\Scene\Component\Camera.cpp.s
 
+RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/flags.make
+RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/includes_CXX.rsp
+RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.obj: ../RenderTest/Source/Render/Scene/Models/CustomModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.obj"
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RenderTest.dir\Render\Scene\Models\CustomModel.cpp.obj -c D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Scene\Models\CustomModel.cpp
+
+RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.i"
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Scene\Models\CustomModel.cpp > CMakeFiles\RenderTest.dir\Render\Scene\Models\CustomModel.cpp.i
+
+RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.s"
+	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Scene\Models\CustomModel.cpp -o CMakeFiles\RenderTest.dir\Render\Scene\Models\CustomModel.cpp.s
+
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/flags.make
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/includes_CXX.rsp
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj: ../RenderTest/Source/Render/Scene/Models/Model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj"
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RenderTest.dir\Render\Scene\Models\Model.cpp.obj -c D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Scene\Models\Model.cpp
 
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.i: cmake_force
@@ -135,7 +149,7 @@ RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.s: cma
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/flags.make
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/includes_CXX.rsp
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj: ../RenderTest/Source/Render/Scene/Models/TriangleModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj"
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RenderTest.dir\Render\Scene\Models\TriangleModel.cpp.obj -c D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Scene\Models\TriangleModel.cpp
 
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.i: cmake_force
@@ -149,7 +163,7 @@ RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cp
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/flags.make
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/includes_CXX.rsp
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj: ../RenderTest/Source/Render/Scene/Models/VboManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj"
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RenderTest.dir\Render\Scene\Models\VboManager.cpp.obj -c D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Scene\Models\VboManager.cpp
 
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.i: cmake_force
@@ -163,7 +177,7 @@ RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.s
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/flags.make
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/includes_CXX.rsp
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.obj: ../RenderTest/Source/Render/Scene/Scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.obj"
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RenderTest.dir\Render\Scene\Scene.cpp.obj -c D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Scene\Scene.cpp
 
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.i: cmake_force
@@ -177,7 +191,7 @@ RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Scene.cpp.s: cmake_forc
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/flags.make
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/includes_CXX.rsp
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.obj: ../RenderTest/Source/Render/Shader/ShaderLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.obj"
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RenderTest.dir\Render\Shader\ShaderLoader.cpp.obj -c D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\Render\Shader\ShaderLoader.cpp
 
 RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.i: cmake_force
@@ -191,7 +205,7 @@ RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Shader/ShaderLoader.cpp.s: cm
 RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/flags.make
 RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.obj: RenderTest/Source/CMakeFiles/RenderTest.dir/includes_CXX.rsp
 RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.obj: ../RenderTest/Source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.obj"
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RenderTest.dir\main.cpp.obj -c D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\RenderTest\Source\main.cpp
 
 RenderTest/Source/CMakeFiles/RenderTest.dir/main.cpp.i: cmake_force
@@ -207,6 +221,7 @@ RenderTest_OBJECTS = \
 "CMakeFiles/RenderTest.dir/Application.cpp.obj" \
 "CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.obj" \
 "CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.obj" \
+"CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.obj" \
 "CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj" \
 "CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj" \
 "CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj" \
@@ -220,6 +235,7 @@ RenderTest_EXTERNAL_OBJECTS =
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/Application.cpp.obj
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.obj
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.obj
+../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.obj
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj
@@ -230,7 +246,7 @@ RenderTest_EXTERNAL_OBJECTS =
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/linklibs.rsp
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/objects1.rsp
 ../Bin/RenderTest.exe: RenderTest/Source/CMakeFiles/RenderTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ..\..\..\Bin\RenderTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ..\..\..\Bin\RenderTest.exe"
 	cd /d D:\Programmation\C++\CLionWorkspace\Nedge\basic-opengl-renderer\cmake-build-debug\RenderTest\Source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RenderTest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -64,6 +64,9 @@ namespace Rt
 
     void Scene::Update()
     {
+        m_models[0]->Update();
+        m_models[1]->Update();
+        m_models[2]->Update();
         m_cam.Input();
     }
 
@@ -74,13 +77,11 @@ namespace Rt
             // First Attributes
             glEnableVertexAttribArray(0);
             glBindBuffer(GL_ARRAY_BUFFER, model->GetVerticesBuffer());
-            std::cout << "Vertices Buffer : " << model->GetVerticesBuffer() << std::endl;
             glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
 
             // Second Attributes
             glEnableVertexAttribArray(1);
             glBindBuffer(GL_ARRAY_BUFFER, model->GetColorsBuffer());
-            std::cout << "Colors Buffer : " << model->GetColorsBuffer() << std::endl;
             glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
 
             glUniformMatrix4fv(mvpID, 1, GL_FALSE, &m_cam.GetMVP()[0][0]);
@@ -88,6 +89,7 @@ namespace Rt
             glUseProgram(m_programID);
             glDrawArrays(GL_TRIANGLES, 0, 3);
             glDisableVertexAttribArray(0);
+            glDisableVertexAttribArray(1);
         }
     }
 }

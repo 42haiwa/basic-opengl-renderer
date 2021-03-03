@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/RenderTest.dir/Application.cpp.obj"
   "CMakeFiles/RenderTest.dir/Render/Display/DisplayWindow.cpp.obj"
   "CMakeFiles/RenderTest.dir/Render/Scene/Component/Camera.cpp.obj"
+  "CMakeFiles/RenderTest.dir/Render/Scene/Models/CustomModel.cpp.obj"
   "CMakeFiles/RenderTest.dir/Render/Scene/Models/Model.cpp.obj"
   "CMakeFiles/RenderTest.dir/Render/Scene/Models/TriangleModel.cpp.obj"
   "CMakeFiles/RenderTest.dir/Render/Scene/Models/VboManager.cpp.obj"

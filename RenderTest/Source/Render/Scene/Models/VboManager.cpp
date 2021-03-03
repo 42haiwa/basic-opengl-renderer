@@ -16,7 +16,7 @@ namespace Rt
         glBufferData(GL_ARRAY_BUFFER, sizeof(float) * m_vertices.size(), &m_vertices[0], GL_STATIC_DRAW);
     }
 
-    uint32_t VboManager::getVbo()
+    uint32_t VboManager::GetVbo() const
     {
         return m_vbo;
     }

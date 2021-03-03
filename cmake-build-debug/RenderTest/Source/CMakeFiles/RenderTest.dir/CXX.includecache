@@ -43,6 +43,8 @@ Glm/glm.hpp
 ../RenderTest/Header/Render/Scene/Models/Glm/glm.hpp
 Glm/gtc/matrix_transform.hpp
 ../RenderTest/Header/Render/Scene/Models/Glm/gtc/matrix_transform.hpp
+Glm/gtx/transform.hpp
+../RenderTest/Header/Render/Scene/Models/Glm/gtx/transform.hpp
 Render/Scene/Models/Model.h
 ../RenderTest/Header/Render/Scene/Models/Render/Scene/Models/Model.h
 Render/Scene/Models/VboManager.h
@@ -978,6 +980,16 @@ matrix_transform.inl
 ../matrix.hpp
 ../ThirdParty/Glm/matrix.hpp
 
+../ThirdParty/Glm/gtx/transform.hpp
+../glm.hpp
+../ThirdParty/Glm/glm.hpp
+../gtc/matrix_transform.hpp
+../ThirdParty/Glm/gtc/matrix_transform.hpp
+transform.inl
+../ThirdParty/Glm/gtx/transform.inl
+
+../ThirdParty/Glm/gtx/transform.inl
+
 ../ThirdParty/Glm/integer.hpp
 detail/qualifier.hpp
 ../ThirdParty/Glm/detail/qualifier.hpp
@@ -1247,16 +1259,6 @@ detail/func_vector_relational.inl
 ../ThirdParty/Glm/detail/func_vector_relational.inl
 
 D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Application.cpp
-Application.h
-D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Application.h
-
-D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Scene.cpp
-Render/Scene/Scene.h
-D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Render/Scene/Render/Scene/Scene.h
-iostream
--
-
-D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/main.cpp
 Application.h
 D:/Programmation/C++/CLionWorkspace/Nedge/basic-opengl-renderer/RenderTest/Source/Application.h
 

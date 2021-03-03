@@ -15,6 +15,7 @@ namespace Rt
     struct VboManagerCreateInfo
     {
         std::vector<float> data;
+        int drawMode = GL_STATIC_DRAW;
         // uint32_t layout; // for shader
     };
 
@@ -22,7 +23,7 @@ namespace Rt
     {
     public:
         void Initialize(VboManagerCreateInfo* vboManagerCreateInfo);
-        uint32_t getVbo();
+        uint32_t GetVbo() const;
 
     private:
         std::vector<float> m_vertices;

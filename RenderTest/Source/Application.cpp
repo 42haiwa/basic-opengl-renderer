@@ -38,6 +38,8 @@ namespace Rt
         std::cout << "Application initialized." << std::endl;
 
         m_scene.Initialize(m_window);
+
+        glEnable(GL_DEPTH_TEST);
     }
 
     void Application::Release()
